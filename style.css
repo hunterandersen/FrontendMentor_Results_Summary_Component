@@ -1,19 +1,19 @@
 * {
-  --color-light-red: var(hsl(0, 100%, 67%));
-  --color-orange-yellow: var(hsl(39, 100%, 56%));
-  --color-green-teal: var(hsl(166, 100%, 37%));
-  --color-cobalt-blue: var(hsl(234, 85%, 45%));
+  --color-light-red: hsl(0, 100%, 67%);
+  --color-orange-yellow: hsl(39, 100%, 56%);
+  --color-green-teal: hsl(166, 100%, 37%);
+  --color-cobalt-blue: hsl(234, 85%, 45%);
 
-  --color-light-slate-blue: var(hsl(252, 100%, 67%));
-  --color-light-royal-blue: var(hsl(241, 81%, 54%));
+  --color-light-slate-blue: hsl(252, 100%, 67%);
+  --color-light-royal-blue: hsl(241, 81%, 54%);
 
-  --color-violet-blue: var(hsla(256, 72%, 46%, 1));
-  --color-persian-blue: var(hsla(241, 72%, 46%, 0));
+  --color-violet-blue: hsla(256, 72%, 46%, 1);
+  --color-persian-blue: hsla(241, 72%, 46%, 0);
 
-  --color-white: var(hsl(0, 0%, 100%));
-  --color-pale-blue: var(hsl(221, 100%, 96%));
-  --color-light-lavender: var(hsl(241, 100%, 89%));
-  --color-dark-gray-blue: var(hsl(224, 30%, 27%));
+  --color-white: hsl(0, 0%, 100%);
+  --color-pale-blue: hsl(221, 100%, 96%);
+  --color-light-lavender: hsl(241, 100%, 89%);
+  --color-dark-gray-blue: hsl(224, 30%, 27%);
 }
 
 body {
@@ -21,3 +21,15 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
+
+
+
+
+/* Attribution for Frontend Mentor */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
